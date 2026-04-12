@@ -14,3 +14,4 @@
 
 Требуется Python 3.11+ и зависимости из `requirements.txt` (например `pip install -r requirements.txt`).
 # demand_elasticity
+# demand_elasticity
