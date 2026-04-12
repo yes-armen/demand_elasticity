@@ -64,7 +64,5 @@ Thumbs.db
 # Logs
 *.log
 
-# Optional: не коммитить тяжёлые сырые данные (раскомментируй при необходимости)
-# data/*.xlsx
-# data/sales/*.xlsx
-# data/*.csv
+# Local datasets (do not commit)
+data/
