@@ -1,0 +1,288 @@
+{
+  "base_value": -2.8194246536646714,
+  "group_importance_pct": {
+    "base": 27.5,
+    "cat": 17.8,
+    "geo": 26.6,
+    "market": 28.2
+  },
+  "top_importance": [
+    [
+      "months_to_completion",
+      "base",
+      8.27
+    ],
+    [
+      "area",
+      "base",
+      5.98
+    ],
+    [
+      "seg_absorption_3m",
+      "market",
+      4.6
+    ],
+    [
+      "developer",
+      "cat",
+      4.19
+    ],
+    [
+      "room_count",
+      "cat",
+      3.18
+    ],
+    [
+      "n_active_project",
+      "market",
+      3.04
+    ],
+    [
+      "floor",
+      "base",
+      3.0
+    ],
+    [
+      "days_since_sales_start",
+      "base",
+      2.49
+    ],
+    [
+      "dev_price_premium",
+      "market",
+      2.21
+    ],
+    [
+      "contract_type_k",
+      "cat",
+      2.07
+    ],
+    [
+      "stage_k",
+      "cat",
+      1.94
+    ],
+    [
+      "n_active_building",
+      "market",
+      1.92
+    ],
+    [
+      "rel_price_district",
+      "market",
+      1.76
+    ],
+    [
+      "dist_to_metro_m",
+      "geo",
+      1.7
+    ],
+    [
+      "finish_in_report",
+      "cat",
+      1.44
+    ],
+    [
+      "dist_to_power_line_m",
+      "geo",
+      1.38
+    ],
+    [
+      "real_rate_chg_3m",
+      "market",
+      1.34
+    ],
+    [
+      "industrial_share_500m",
+      "geo",
+      1.3
+    ],
+    [
+      "dist_to_water_m",
+      "geo",
+      1.21
+    ],
+    [
+      "file_month",
+      "base",
+      1.19
+    ]
+  ],
+  "top_shap": [
+    [
+      "room_count",
+      "cat",
+      0.6854,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "area",
+      "base",
+      0.4856,
+      0.181,
+      "↑признак → ↑P(продажа)"
+    ],
+    [
+      "months_to_completion",
+      "base",
+      0.4759,
+      0.509,
+      "↑признак → ↑P(продажа)"
+    ],
+    [
+      "seg_absorption_3m",
+      "market",
+      0.4206,
+      0.739,
+      "↑признак → ↑P(продажа)"
+    ],
+    [
+      "developer",
+      "cat",
+      0.2965,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "contract_type_k",
+      "cat",
+      0.265,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "floor",
+      "base",
+      0.2512,
+      -0.543,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "n_active_project",
+      "market",
+      0.2376,
+      -0.948,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "stage_k",
+      "cat",
+      0.1865,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "dev_price_premium",
+      "market",
+      0.1715,
+      0.793,
+      "↑признак → ↑P(продажа)"
+    ],
+    [
+      "premises_type",
+      "cat",
+      0.1677,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "n_active_building",
+      "market",
+      0.1676,
+      -0.921,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "finish_in_report",
+      "cat",
+      0.1611,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "region",
+      "cat",
+      0.1587,
+      null,
+      "cat (знак по значению не определён)"
+    ],
+    [
+      "key_rate",
+      "base",
+      0.158,
+      null,
+      "≈0"
+    ],
+    [
+      "days_since_sales_start",
+      "base",
+      0.1549,
+      -0.392,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "rel_price",
+      "market",
+      0.1316,
+      -0.829,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "rel_price_district",
+      "market",
+      0.1254,
+      -0.898,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "price_change_pct_1",
+      "base",
+      0.1065,
+      -0.866,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "row_number",
+      "base",
+      0.106,
+      -0.67,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "room_share_project",
+      "market",
+      0.1012,
+      -0.941,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "dist_to_industrial_m",
+      "geo",
+      0.0998,
+      -0.748,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "price_rank_seg",
+      "market",
+      0.0975,
+      -0.88,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "price_change_from_first",
+      "base",
+      0.0957,
+      -0.899,
+      "↑признак → ↓P(продажа)"
+    ],
+    [
+      "project_name",
+      "cat",
+      0.0944,
+      null,
+      "cat (знак по значению не определён)"
+    ]
+  ]
+}

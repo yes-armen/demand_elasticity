@@ -54,6 +54,7 @@ Thumbs.db
 
 # Editors / IDE
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
@@ -66,3 +67,12 @@ Thumbs.db
 
 # Local datasets (do not commit)
 data/
+
+# Документация / курсовая (держим локально, не коммитим)
+docs/
+
+# CatBoost training logs (transient)
+catboost_info/
+
+# Notebook compute cache (transient)
+notebooks/cache/
