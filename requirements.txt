@@ -115,3 +115,12 @@ webencodings==0.5.1
 websocket-client==1.9.0
 widgetsnbextension==4.0.15
 xlsx2csv==0.8.6
+catboost==1.2.10
+optuna==4.9.0
+streamlit>=1.58
+# Геофичи окружения ЖК (OSM) — notebooks/04a_geo_features.ipynb, src/geo_features.py
+geopandas==1.1.3
+osmnx==2.1.0
+shapely==2.1.2
+pyproj==3.7.2
+Rtree==1.4.1
